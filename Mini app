@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Telegram Game</title>
+</head>
+<body>
+    <h2>مرحبا بك 👋</h2>
+    <button onclick="showAd()">إظهار إعلان</button>
+
+    <script>
+        // إعلان مكافأة
+        function showAd() {
+            show_9747861().then(() => {
+                alert('لقد شاهدت إعلاناً وحصلت على مكافأة 🎉');
+            });
+        }
+    </script>
+</body>
+</html>
